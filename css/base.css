@@ -33,3 +33,56 @@ a {
   text-decoration: none;
   color: var(--black-color) !important;
 }
+
+
+/* Class btn main  */
+.btn-main {
+  background-color: var(--black-color);
+  font-size: 1.4rem;
+  line-height: 1.75rem;
+  color: var(--white-color);
+  padding: 1.1rem 1.6rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  min-width: 12rem;
+}
+
+.btn-main:active,
+.btn-main:focus {
+  outline: none;
+}
+
+
+.text-xlarge {
+  font-size: 12rem;
+  font-weight: 600;
+  line-height: 150px;
+}
+
+.text-medium {
+  font-weight: 600;
+  font-size: 4rem;
+  position: relative;
+}
+
+.heading-text .text-medium::after {
+  position: absolute;
+  content: "";
+  background-color: var(--black-color);
+  width: 6rem;
+  height: 0.2rem;
+  bottom: 0.8rem;
+  right: -7.4rem;
+}
+
+.btn-max {
+  max-width: 15rem;
+  margin-left: 18rem;
+  margin-top: 10.2rem;
+}
+
+
+
+
+
