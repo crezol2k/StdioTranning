@@ -48,11 +48,24 @@ a {
   min-width: 12rem;
 }
 
+.btn-search {
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  min-width: 10rem;
+}
+
 .btn-main:active,
 .btn-main:focus {
   outline: none;
 }
 
+.btn-max {
+  max-width: 15rem;
+  margin-left: 18rem;
+  margin-top: 10.2rem;
+}
+
+/* Text font size  */
 
 .text-xlarge {
   font-size: 12rem;
@@ -66,6 +79,7 @@ a {
   position: relative;
 }
 
+/* Pseudo Elements => line medium */
 .heading-text .text-medium::after {
   position: absolute;
   content: "";
@@ -76,13 +90,9 @@ a {
   right: -7.4rem;
 }
 
-.btn-max {
-  max-width: 15rem;
-  margin-left: 18rem;
-  margin-top: 10.2rem;
+.text-small {
+  font-size: 1.4rem;
 }
-
-
 
 
 

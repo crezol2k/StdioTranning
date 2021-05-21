@@ -55,16 +55,8 @@
   border-top-left-radius: 0.3rem;
 }
 
-
-
 .btn-main i {
   margin-right: 0.9rem;
-}
-
-.btn-search {
-  border-bottom-right-radius: 0.3rem;
-  border-top-right-radius: 0.3rem;
-  min-width: 10rem;
 }
 
 .header-right {
@@ -141,7 +133,7 @@
   position: relative;
 }
 
-.banner-text {
+.text-banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -149,12 +141,12 @@
   z-index: 3;
 }
 
-.banner-text .text-small {
+.text-banner .text-small {
   font-size: 1.4rem;
   position: relative;
 }
 
-.banner-text .text-small::after {
+.text-banner .text-small::after {
   position: absolute;
   content: "";
   background-color: var(--black-color);
@@ -164,12 +156,12 @@
   left: 8.4rem;
 }
 
-.banner-text .text-large {
+.text-banner .text-large {
   font-size: 5.8rem;
   font-weight: 600;
 }
 
-.banner-text .text-large:nth-child(3) {
+.text-banner .text-large:nth-child(3) {
   margin: 0 3.9rem 8.8rem 9.2rem;
 }
 
@@ -239,9 +231,9 @@
 
 .fashion-trending {
   background-color: #fbfbfb;
-  background-color: rgba(196, 196, 196, 0.3);
   margin-top: 14.7em;
-  height: 100vh;
+  padding-bottom: 2rem;
+  height: 100%;
 }
 
 .fashion-trending .container {
@@ -290,8 +282,6 @@
   z-index: 2;
 }
 
-
-
 .content-text {
   z-index: 4;
   width: 77.8rem;
@@ -299,7 +289,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 4.2rem;
+  top: 4rem;
   left: 27%;
 }
 
@@ -315,6 +305,94 @@
   color: white;
   text-shadow: 0px 0px 2px black;
 }
+
 /* End fashion trending  */
 
+/* New season  */
 
+.new-season {
+  background-color: #fbfbfb;
+  padding-bottom: 18rem;
+  height: 100vh;
+}
+
+.new-season .container {
+  display: flex;
+  flex-direction: column;
+}
+.box.paul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 58rem;
+  height: 43.6rem;
+  background-color: #bacbf9;
+  z-index: 1;
+}
+
+.box.shoes-coverse {
+  position: absolute;
+  left: 54rem;
+  top: 4rem;
+  width: 53.2rem;
+  height: 30rem;
+  background-color: #ffb7b7;
+  z-index: 2;
+}
+
+.sub-info {
+  width: 100%;
+  background-color: var(--white-color);
+  padding: 2rem 6rem;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-info .name span {
+  font-weight: bold;
+}
+.sub-info .price {
+  font-weight: bold;
+}
+
+/* End new season  */
+
+/* Route one content  */
+
+.route-one {
+  background-color: #dce6ff;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  z-index: 3;
+  margin-top: 12rem;
+}
+
+.text-content .text-small {
+  position: relative;
+  margin-top: -8rem;
+}
+
+.text-content .text-small::after {
+  position: absolute;
+  content: "";
+  background-color: var(--black-color);
+  width: 4rem;
+  height: 0.1rem;
+  bottom: 0.4rem;
+  left: 8.4rem;
+}
+
+.text-content .text-large {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+
+.text-content .text-p {
+  margin: 2.4rem 0rem 8.2rem;
+}
+/* End route one content  */
