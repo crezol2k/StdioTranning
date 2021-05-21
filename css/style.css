@@ -201,6 +201,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .logo-brand-img img:not(:last-child) {
@@ -312,14 +313,16 @@
 
 .new-season {
   background-color: #fbfbfb;
-  padding-bottom: 18rem;
-  height: 100vh;
+  width: 100%;
+  height: 110vh;
+  padding-bottom: 10rem;
 }
 
 .new-season .container {
   display: flex;
   flex-direction: column;
 }
+
 .box.paul {
   position: absolute;
   left: 0;
@@ -362,7 +365,14 @@
 
 .route-one {
   background-color: #dce6ff;
+  height: 56rem;
 }
+
+.route-one .container {
+  position: relative;
+  display: flex;
+}
+
 .text-content {
   display: flex;
   flex-direction: column;
@@ -374,7 +384,7 @@
 
 .text-content .text-small {
   position: relative;
-  margin-top: -8rem;
+  margin-top: -2rem;
 }
 
 .text-content .text-small::after {
@@ -395,4 +405,268 @@
 .text-content .text-p {
   margin: 2.4rem 0rem 8.2rem;
 }
+
+.img-content {
+  display: flex;
+  flex: 2;
+  height: 58rem;
+  width: 100rem;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.box-2 {
+  position: absolute;
+}
+
+.box-2.img-2 {
+  position: absolute;
+  left: 14%;
+}
+
+.box-2.img-3 {
+  position: absolute;
+  left: 28%;
+}
+
+.box-2.img-4 {
+  position: absolute;
+  left: 42%;
+}
+
+.box-2.img-5 {
+  position: absolute;
+  left: 56%;
+}
+
 /* End route one content  */
+
+/* New release  */
+.new-release {
+  background-color: #fbfbfb;
+}
+.new-release .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-release .container .heading-text {
+  margin-bottom: 2rem;
+}
+
+.item {
+  background-color: #f1f1f1;
+  position: relative;
+  margin-top: 8rem;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.item-icon {
+  position: absolute;
+  font-size: 2rem;
+  top: 2rem;
+  right: 2rem;
+}
+
+.item-info {
+  background-color: #fff;
+}
+
+.item-info .name {
+  font-size: 1.4rem;
+  padding: 1.8rem;
+  padding-bottom: 0;
+}
+
+.price-stock {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.price-stock .price {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.price-stock .stock {
+  font-size: 1.2rem;
+}
+/* End new release  */
+
+/* Season  */
+
+.season {
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+  background-color: #FBFBFB;
+}
+.season .container {
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.img-season-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) -5.86%,
+    rgba(0, 0, 0, 0) 119.62%
+  );
+  background-color: #78b9ae;
+}
+
+.img-season-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) -5.86%,
+    rgba(0, 0, 0, 0) 119.62%
+  );
+  background-color: #84b2c1;
+}
+
+.img-season-3 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) -5.86%,
+    rgba(0, 0, 0, 0) 119.62%
+  );
+  background-color: #d5ad3f;
+}
+
+.grid:nth-child(3) {
+  position: relative;
+}
+
+.grid-item .icon i {
+  font-size: 12rem;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.text-season {
+  position: absolute;
+  top: 8rem;
+  left: 10rem;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-season .text-small {
+  font-size: 1.4rem;
+  color: #fff;
+  position: relative;
+}
+
+.text-season .text-small::after {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 4rem;
+  height: 0.1rem;
+  bottom: 0.4rem;
+  left: 8.4rem;
+}
+
+.text-season .text-large {
+  font-weight: 600;
+  font-size: 5.2rem;
+  color: white;
+}
+
+.text-season .text-large:nth-child(3) {
+  margin: 0 3.9rem 8.8rem 9.2rem;
+}
+
+.btn-main.light {
+  color: var(--black-color);
+  background-color: #fff;
+  max-width: 12rem;
+}
+
+.grid-item:last-child .text-season {
+  top: 4rem;
+}
+
+.text-large.dark {
+  color: var(--black-color);
+}
+
+.text-p.dark {
+  margin-left: 0;
+}
+
+.btn-main.dark {
+  max-width: 12rem;
+  margin-top: 5.6rem;
+}
+/* End season  */
+
+/* Subscribe  */
+
+/* Section banner  */
+
+.subscribe {
+  z-index: 1;
+  position: relative;
+}
+.subscribe .container {
+  display: flex;
+  align-items: center;
+  margin: 9rem 20rem;
+  justify-content: space-evenly;
+}
+.text-subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  z-index: 3;
+}
+
+.text-subscribe .text-small {
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.text-subscribe .text-small::after {
+  position: absolute;
+  content: "";
+  background-color: var(--black-color);
+  width: 4rem;
+  height: 0.1rem;
+  bottom: 0.4rem;
+  left: 8.4rem;
+}
+
+.form-subscribe {
+  display: flex;
+  align-items: center;
+}
+
+.form-subscribe input{
+  padding: 1rem 1.6rem;
+  width: 35.5rem;
+  font-size: 1.2rem;
+  color: var(--black-color);
+  outline: none;
+  border: none;
+  border: 1px solid #9a9a9a;
+}
+
+/* End subscribe  */
