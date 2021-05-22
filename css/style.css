@@ -504,9 +504,7 @@
 .season {
   padding-top: 20rem;
   padding-bottom: 10rem;
-  background-color: #FBFBFB;
-}
-.season .container {
+  background-color: #fbfbfb;
 }
 
 .grid {
@@ -659,7 +657,7 @@
   align-items: center;
 }
 
-.form-subscribe input{
+.form-subscribe input {
   padding: 1rem 1.6rem;
   width: 35.5rem;
   font-size: 1.2rem;
@@ -670,3 +668,60 @@
 }
 
 /* End subscribe  */
+
+footer {
+  background-color: var(--black-color);
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 0;
+}
+
+.footer-logo {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+}
+
+.row.b .column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.row.b .col-6.column:nth-child(2) {
+  margin-top: 3.6rem;
+}
+
+.footer-link .social i {
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  margin-right: 1rem;
+}
+
+.footer.text-small {
+  font-size: 1.6rem;
+  color: var(--white-color) !important;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+}
+
+.footer.text-small::after {
+  position: absolute;
+  content: "";
+  background-color: var(--white-color);
+  left: 0;
+  bottom: -0.6rem;
+  width: 8rem;
+  height: 0.1rem;
+}
+
+.footer.link {
+  color: var(--white-color) !important;
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+  text-decoration: none;
+}
