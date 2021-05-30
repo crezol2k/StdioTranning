@@ -1,0 +1,146 @@
+/* ----------Product Detail-------------- */
+
+.product-detail {
+  background-color: #fbfbfb;
+  padding: 8.8rem 0 10rem;
+}
+
+.product-detail .grid.wide {
+  display: flex;
+  flex-direction: column;
+}
+.item-small:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.row .left {
+  display: flex;
+}
+.left-item:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.product-info {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 2.8rem;
+}
+
+.product-price {
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-top: 4rem;
+}
+
+.size {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  margin-top: 8rem;
+}
+
+.box-size {
+  display: flex;
+  margin-top: 1.6rem;
+}
+
+.box-size-item {
+  border: 1px solid black;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+}
+
+.box-size-item:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.selection {
+  display: flex;
+  margin-bottom: 2.8rem;
+  margin-top: 4rem;
+}
+.selection input {
+  text-align: center;
+  font-size: 1.4rem;
+  max-width: 6.4rem;
+  outline: none;
+  border: 1px solid #9a9a9a;
+  background-color: #fbfbfb;
+}
+.plus,
+.minus {
+  border: 1px solid #9a9a9a;
+  padding: 1.2rem 1.5rem;
+  cursor: pointer;
+}
+
+.product-btn {
+  display: flex;
+  margin-bottom: 8rem;
+}
+
+.btn-main.product {
+  min-width: 18rem;
+}
+
+.btn-main.product.light {
+  background-color: #fbfbfb;
+  border: 1px solid var(--black-color);
+  margin-right: 2rem;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-description .text-small {
+  font-weight: 600;
+  font-weight: 1.6rem;
+  position: relative;
+}
+
+.product-description .text-small:last-child {
+  font-weight: 600;
+  font-weight: 1.6rem;
+  margin-top: 4.4rem;
+}
+
+.product-description .text-small::after {
+  position: absolute;
+  content: "";
+  bottom: -1.4rem;
+  left: 0;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #9a9a9a;
+}
+
+.product-detail--header {
+  margin-bottom: 6.8rem;
+}
+
+.product-detail--header span {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.product-detail--header span:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.product-detail--header i {
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+
+.text-medium.product-heading-text {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/* ----------End poduct Detail----------- */

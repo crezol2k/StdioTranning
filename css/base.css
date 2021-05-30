@@ -20,7 +20,6 @@ body {
   overflow-x: hidden;
 }
 
-
 ul {
   list-style: none;
 }
@@ -33,8 +32,6 @@ a {
   text-decoration: none;
   color: var(--black-color) !important;
 }
-
-
 
 /* Class btn main  */
 .btn-main {
@@ -94,6 +91,3 @@ a {
 .text-small {
   font-size: 1.4rem;
 }
-
-
-
